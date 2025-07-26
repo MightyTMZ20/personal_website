@@ -5,11 +5,11 @@ import { Experience } from "@/app/types/experience";
 
 export const experiences: Experience[] = [
   {
-    company: "Company Name",
-    position: "Your Position",
+    company: "Rove (YC W24)",
+    position: "Technical Intern",
     period: "2023 - Present",
     description:
-      "Brief description of your role and key responsibilities. Include specific achievements and metrics where possible.",
+      "Brief description of your role and key responsibilities. ",
     achievements: [
       "Increased efficiency by 40% through process optimization",
       "Led a team of 5 developers on multiple projects",

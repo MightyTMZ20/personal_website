@@ -1,14 +1,12 @@
 // Add the information for the "About Me" section
 
 const aboutMeTitle = "About Me";
-const aboutMeText = `I'm a dedicated professional with a passion for innovation 
-                and continuous learning. Here's a glimpse into my journey and what drives me.`;
+const aboutMeText = `I'm a dedicated student with a passion for innovation 
+                and continuous learning. Here's a glimpse into my progress and what drives me as a young person.`;
 
 const backgroundTitle = "Background";
-const backgroundText = `With [X] years of experience in [Your Field], 
-                        I've worked on diverse projects ranging from 
-                        [Project Type 1] to [Project Type 2], always 
-                        focusing on delivering exceptional results.`;
+const backgroundText = `I'm a high school from New York and I am always 
+                        focusing on delivering exceptional results in the classroom.`;
 
 const colloborationTitle = "Collaboration";
 const colloborationText = `I thrive in collaborative environments and believe that the best 
@@ -18,7 +16,8 @@ const colloborationText = `I thrive in collaborative environments and believe th
 const goalsTitle = "Goals";
 const goalsText = `I'm always looking for opportunities to grow, learn new technologies,
                      and contribute to meaningful projects that make a positive impact 
-                     in the world.`;
+                     in the world.                  
+                     `;
 
 export {
   aboutMeTitle,

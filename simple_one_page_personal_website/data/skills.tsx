@@ -6,7 +6,7 @@ import { Code, Database, Palette, Globe } from "lucide-react";
 
 export const skills: SkillList[] = [
   {
-    category: "Frontend",
+    category: "Full Stack",
     icon: <Code className="w-6 h-6" />,
     skills: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Vue.js"],
   },
@@ -24,5 +24,5 @@ export const skills: SkillList[] = [
     category: "Tools",
     icon: <Globe className="w-6 h-6" />,
     skills: ["Git", "Docker", "AWS", "Vercel", "VS Code"],
-  },
+  }, 
 ];

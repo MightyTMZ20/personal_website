@@ -4,11 +4,11 @@ import { Project } from "@/app/types/projects";
 
 export const projects: Project[] = [
   {
-    title: "Project Name 1",
+    title: "Ice Cream Game",
     description:
-      "A comprehensive description of your amazing project, highlighting the key features, technologies used, and the impact it made.",
-    image: "🚀",
-    tags: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
+      "An adventure game based around an ice cream shop.",
+    image: "🍦🍨🛖",
+    tags: ["P5.js", "JavaScript"],
     github: "https://github.com/yourusername/project1",
     live: "https://project1.vercel.app",
   },
