@@ -1,22 +1,24 @@
-import './globals.css';
-import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import "./globals.css";
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Cherie Chen | Portfolio',
-  description: 'Personal portfolio showcasing my work, experience, and skills in web development and design.',
-  keywords: ['cherie chen', 'high school'],
-  authors: [{ name: 'Cherie Chen' }],
-  creator: 'Cherie Chen',
+  title: "Cherie Chen | Portfolio",
+  description:
+    "Personal portfolio showcasing my work, experience, and skills in web development and design.",
+  keywords: ["cherie chen", "high school"],
+  authors: [{ name: "Cherie Chen" }],
+  creator: "Cherie Chen",
   openGraph: {
     images: [
       {
-        url: 'https://tom-zhang-personal-site.vercel.app/current_og_image.png',
+        url: "https://tom-zhang-personal-site.vercel.app/current_og_image.png",
         width: 1200,
         height: 630,
-        alt: 'Cherie Chen Portfolio',
+        alt: "Cherie Chen Portfolio",
       },
     ],
   },
@@ -54,7 +56,10 @@ export default function RootLayout({
         {/* <link rel="canonical" href="https://yourwebsite.vercel.app" />
         <meta name="viewport" content="width=device-width, initial-scale=1" /> */}
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
