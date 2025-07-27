@@ -51,8 +51,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="canonical" href="https://yourwebsite.vercel.app" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {/* <link rel="canonical" href="https://yourwebsite.vercel.app" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" /> */}
       </head>
       <body className={inter.className}>{children}</body>
     </html>
